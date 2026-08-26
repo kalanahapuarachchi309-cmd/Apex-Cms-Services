@@ -1,0 +1,9 @@
+[submodule "customer-service"]
+	path = customer-service
+	url = https://github.com/kalanahapuarachchi309-cmd/Apex-Cms-Customer-Service.git
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/kalanahapuarachchi309-cmd/Apex-Cms-Order-Service.git
+[submodule "vehicle-service"]
+	path = vehicle-service
+	url = https://github.com/kalanahapuarachchi309-cmd/-Apex-Cms-Vehicle-Service.git
