@@ -1,5 +1,11 @@
 module.exports = {
   apps : [
+
+      {
+          name : "cloud-sql-auth-proxy",
+          script : "./cloud-sql-proxy apex-cms-506311:asia-south1:postgres-vm --private-ip",
+          logs : "./logs/cloud-sql-auth-proxy.log"
+      },
       {
           name   : "customer-service",
           script: "java",
